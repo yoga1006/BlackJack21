@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		04849C2C2A791D07006CDF7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04849C2B2A791D07006CDF7E /* AppDelegate.swift */; };
 		04849C2E2A791D07006CDF7E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04849C2D2A791D07006CDF7E /* SceneDelegate.swift */; };
-		04849C302A791D07006CDF7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04849C2F2A791D07006CDF7E /* ViewController.swift */; };
 		04849C332A791D07006CDF7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04849C312A791D07006CDF7E /* Main.storyboard */; };
 		04849C352A791D0A006CDF7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04849C342A791D0A006CDF7E /* Assets.xcassets */; };
 		04849C382A791D0A006CDF7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04849C362A791D0A006CDF7E /* LaunchScreen.storyboard */; };
+		04849C402A791D23006CDF7E /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04849C3F2A791D23006CDF7E /* GameViewController.swift */; };
+		04849C422A792E4E006CDF7E /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04849C412A792E4E006CDF7E /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		04849C282A791D07006CDF7E /* BlackJack21.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlackJack21.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04849C2B2A791D07006CDF7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04849C2D2A791D07006CDF7E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		04849C2F2A791D07006CDF7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		04849C322A791D07006CDF7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04849C342A791D0A006CDF7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04849C372A791D0A006CDF7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04849C392A791D0B006CDF7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04849C3F2A791D23006CDF7E /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		04849C412A792E4E006CDF7E /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,9 @@
 			children = (
 				04849C2B2A791D07006CDF7E /* AppDelegate.swift */,
 				04849C2D2A791D07006CDF7E /* SceneDelegate.swift */,
-				04849C2F2A791D07006CDF7E /* ViewController.swift */,
 				04849C312A791D07006CDF7E /* Main.storyboard */,
+				04849C412A792E4E006CDF7E /* Card.swift */,
+				04849C3F2A791D23006CDF7E /* GameViewController.swift */,
 				04849C342A791D0A006CDF7E /* Assets.xcassets */,
 				04849C362A791D0A006CDF7E /* LaunchScreen.storyboard */,
 				04849C392A791D0B006CDF7E /* Info.plist */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04849C302A791D07006CDF7E /* ViewController.swift in Sources */,
 				04849C2C2A791D07006CDF7E /* AppDelegate.swift in Sources */,
+				04849C402A791D23006CDF7E /* GameViewController.swift in Sources */,
 				04849C2E2A791D07006CDF7E /* SceneDelegate.swift in Sources */,
+				04849C422A792E4E006CDF7E /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
